@@ -1,0 +1,87 @@
+* {
+  font-family: 'Barlow', sans-serif;
+}
+
+.app {
+  padding: 2rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.header p {
+  color: #fff;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 1.5rem;
+  box-shadow: rgba(100, 100, 111, .2) 0px 7px 29px 0px;
+  border-radius: 8px;
+}
+
+.form-container form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.inputs-container {
+  min-height: 280px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  margin-bottom: 2rem;
+}
+
+label {
+  font-weight: bold;
+  color: #777;
+  font-size: .9rem;
+}
+
+input, textarea {
+  padding: .6rem;
+  border: none;
+  border-radius: 3px;
+  box-shadow: rgba(99, 99, 99, .2) 0px 2px 8px 0px;
+}
+
+textarea {
+  height: 120px;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.actions button {
+  font-size: .9rem;
+  padding: .5rem 1rem;
+  gap: .5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #7076f4;;
+  border: none;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.actions button:hover {
+  background-color: #7077f4a1;;
+}

@@ -1,0 +1,43 @@
+/* quando a classe estiver ativa */
+.active {
+    font-weight: bold;
+}
+
+.active > svg {
+    fill: #7076f4; /* propriedade que muda cor de svg */
+}
+
+.steps {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+/* pseudo elemento depois dos principais, a linha que corta os steps */
+
+.steps::after {
+    content: "";
+    width: 380px;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    top: 20px;
+}
+
+.step {
+    width: 120px;
+    z-index: 1;
+    text-align: center;
+    background-color: #fff;
+    padding: .5rem;
+}
+
+/* 'icones geram elementos svg */
+.step svg {
+    font-size: 1.6rem;
+    margin-bottom: .2rem;
+}
